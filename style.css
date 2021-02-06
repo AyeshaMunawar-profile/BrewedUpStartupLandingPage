@@ -1,0 +1,19 @@
+:root {
+  font-family: "Red Hat Display", sans-serif;
+  /* PRimary Color  */
+  --light-coffee-0: #f9f4ef;
+  --light-coffee-1: #eaddcf;
+  --chocolate-brown: #572a17;
+  /* Secondary Colors */
+  --coffee-brown-dark: #716040;
+  --coffee-brown-light: #8c7851;
+  --light-color: #fffffe;
+  /* Accent Colors */
+  --pink: #f25042;
+  /* Neutral Colors */
+  --black: #020826;
+  --White: #f5f5ef;
+}
+.heading-text {
+  font-family: "Playfair Display", serif;
+}
