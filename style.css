@@ -10,10 +10,83 @@
   --light-color: #fffffe;
   /* Accent Colors */
   --pink: #f25042;
+  --pink-dark: #e04a3c;
   /* Neutral Colors */
   --black: #020826;
   --White: #f5f5ef;
 }
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+html {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(24, 18, 7, 0.59),
+      rgba(58, 29, 2, 0.52)
+    ),
+    url(res/header.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  /* background: url(res/header.jpg) no-repeat center center fixed; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Text  */
+.main-heading-text {
+  font-family: "Playfair Display", serif !important;
+  font-size: 3rem;
+}
 .heading-text {
-  font-family: "Playfair Display", serif;
+  font-family: "Playfair Display", serif !important;
+  font-size: 2rem;
+}
+.body-text {
+  font-family: "Red Hat Display", sans-serif !important;
+  font-size: 1rem;
+}
+.text-hair {
+  font-weight: normal !important;
+}
+.text-medium {
+  font-weight: bold !important;
+}
+.text-bold {
+  font-weight: 900 !important;
+}
+/* backgrounds */
+.bg-coffee {
+  background-color: var(--coffee-brown-dark);
+}
+.bg-light {
+  background-color: var(--light-color);
+}
+.bg-black {
+  background-color: var(--black);
+}
+.bg-light-coffee-1 {
+  background-color: var(--light-coffee-1);
+}
+.bg-light-coffee-0 {
+  background-color: var(--light-coffee-0);
+}
+.bg-accent {
+  background-color: var(--pink);
+}
+
+/* buttons  */
+
+/* header */
+.main-header {
+  text-align: center;
 }
