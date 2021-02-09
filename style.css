@@ -121,10 +121,21 @@ hr {
 .btn-primary {
     background-color: var(--pink);
     border: 2px solid transparent;
-    outline-color: var(--pink);
+    /* outline: none; */
 }
 
-.btn-primary:hover {
+.btn-primary:link,
+.btn-primary:visited {
+    background-color: var(--pink);
+    border: 2px solid transparent;
+    /* outline: none; */
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+    outline: none !important;
+    box-shadow: none;
     background-color: var(--pink-dark);
     border: 3px solid var(--pink-dark);
 }
