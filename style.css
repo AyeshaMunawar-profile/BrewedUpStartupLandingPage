@@ -79,6 +79,10 @@ hr {
     font-weight: 900 !important;
 }
 
+.header-logo {
+    height: 40%;
+}
+
 
 /* backgrounds */
 
@@ -157,3 +161,7 @@ hr {
 
 
 /* transform */
+
+.buffer {
+    height: 3rem;
+}
