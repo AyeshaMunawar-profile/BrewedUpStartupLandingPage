@@ -140,6 +140,18 @@ hr {
     border: 3px solid var(--pink-dark);
 }
 
+.btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 2px 5px 23px rgba(17, 17, 17, 0.486)!important;
+    transition: all 0.1s ease-in-out;
+}
+
+.btn-primary:active {
+    transform: translateY(3px);
+    box-shadow: 2px 5px 23px rgba(17, 17, 17, 0.2)!important;
+    transition: all 0.1s ease-in-out;
+}
+
 
 /* header */
 
